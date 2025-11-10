@@ -46,6 +46,7 @@ Documentation is available at [https://streamdeck-linux-gui.github.io/streamdeck
 
 ## Installation Guides
 **Warning** 
+
 Since i am after all only one person, given the mere scope this fork adds to the original, I can no loner state that installation platforms either than **Ubuntu/Mint/Debian** will work.
 * [Arch/Manjaro](docs/installation/arch.md)
 * [CentOS](docs/installation/centos.md)
