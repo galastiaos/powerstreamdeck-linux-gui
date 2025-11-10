@@ -14,7 +14,7 @@ _________________
 
 **powerstreamdeck-linux-gui** A Linux compatible UI for the Elgato Stream Deck.
 
-This project is a of the project **streamdeck-linux-gui**, a fork and drop-in replacement for [streamdeck_ui](https://github.com/timothycrosley/streamdeck-ui), which was abandoned after its original owner disappeared.
+This project is a fork of the project **streamdeck-linux-gui**, a fork and drop-in replacement for [streamdeck_ui](https://github.com/timothycrosley/streamdeck-ui), which was abandoned after its original owner disappeared.
 
 All credit to the orignal authors, and the many contributors to the project.
 
