@@ -55,7 +55,7 @@ Once you're up and running, consider installing a [systemd service](docs/install
 
 ### Precooked Scripts
 
-There are scripts for setting up powerstreamdeck_ui on [Debian/Ubuntu](scripts/ubuntu_install.sh) and [Fedora](scripts/fedora_install.sh).
+There are scripts for setting up PowerStreamdeck on [Debian/Ubuntu](scripts/ubuntu_install.sh) and [Fedora](scripts/fedora_install.sh).
 
 ## Updating Documentation
 
