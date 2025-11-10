@@ -1,14 +1,8 @@
 [![powerstreamdeck_ui - Linux application to enhance your streamdeck. ](docs/art/logo_large.png)](https://github.com/streamdeck-linux-gui/streamdeck-linux-gui)
 _________________
 
-[![PyPI version](https://badge.fury.io/py/streamdeck-linux-gui.svg)](https://pypi.org/project/streamdeck-linux-gui/)
-[![Build Status](https://github.com/streamdeck-linux-gui/streamdeck-linux-gui/actions/workflows/test.yaml/badge.svg)](https://github.com/streamdeck-linux-gui/streamdeck-linux-gui/actions/workflows/test.yaml?query=branch3Amain)
-[![Docs Status](https://github.com/streamdeck-linux-gui/streamdeck-linux-gui/actions/workflows/docs.yml/badge.svg)](https://github.com/streamdeck-linux-gui/streamdeck-linux-gui/actions/workflows/docs.yml)
-[![codecov](https://codecov.io/gh/streamdeck-linux-gui/streamdeck-linux-gui/branch/main/graph/badge.svg?token=I4WC0MVVZ3)](https://codecov.io/gh/streamdeck-linux-gui/streamdeck-linux-gui)
-[![Join Discord](https://img.shields.io/badge/Join%20Discord-Discord-green?labelColor=Blue&style=flat&logo=discord&link=https://discord.gg/ZCZesnEj4)](https://discord.gg/ZCZesnEj4)
 [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/streamdeck-linux-gui/streamdeck-linux-gui)
 [![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://timothycrosley.github.io/isort/)
-[![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
 
 _________________
 
@@ -18,7 +12,7 @@ This project is a fork of the project **streamdeck-linux-gui**, a fork and drop-
 
 All credit to the orignal authors, and the many contributors to the project.
 
-![Streamdeck UI Usage Example](docs/art/example.gif)
+![Powerstreamdeck UI Usage Example](docs/art/example.gif)
 
 ## Key Features
 
@@ -47,7 +41,7 @@ Documentation is available at [https://streamdeck-linux-gui.github.io/streamdeck
 ## Installation Guides
 **Warning** 
 
-Since i am after all only one person, given the mere scope this fork adds to the original, I can no loner state that installation platforms either than **Ubuntu/Mint/Debian** will work.
+Since I am after all only one person, given the mere scope this fork adds to the original, I can no loner state that installation on platforms either than **Ubuntu/Mint/Debian** will work.
 * [Arch/Manjaro](docs/installation/arch.md)
 * [CentOS](docs/installation/centos.md)
 * [Fedora](docs/installation/fedora.md)
@@ -61,7 +55,7 @@ Once you're up and running, consider installing a [systemd service](docs/install
 
 ### Precooked Scripts
 
-There are scripts for setting up streamdeck_ui on [Debian/Ubuntu](scripts/ubuntu_install.sh) and [Fedora](scripts/fedora_install.sh).
+There are scripts for setting up powerstreamdeck_ui on [Debian/Ubuntu](scripts/ubuntu_install.sh) and [Fedora](scripts/fedora_install.sh).
 
 ## Updating Documentation
 
