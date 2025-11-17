@@ -1,15 +1,4 @@
-[![streamdeck_ui - Linux kompatibles UI für das Elgato Stream Deck](art/logo_large.png)](https://timothycrosley.github.io/streamdeck-ui/)
-_________________
-
-[![PyPI version](https://badge.fury.io/py/streamdeck-ui.svg)](http://badge.fury.io/py/streamdeck-ui)
-[![Test Status](https://github.com/timothycrosley/streamdeck-ui/workflows/Test/badge.svg?branch=master)](https://github.com/timothycrosley/streamdeck-ui/actions?query=workflow%3ATest)
-[![codecov](https://codecov.io/gh/timothycrosley/streamdeck-ui/branch/master/graph/badge.svg)](https://codecov.io/gh/timothycrosley/streamdeck-ui)
-[![Join the chat at https://gitter.im/timothycrosley/streamdeck-ui](https://badges.gitter.im/timothycrosley/streamdeck-ui.svg)](https://gitter.im/timothycrosley/streamdeck-ui?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://pypi.python.org/pypi/streamdeck-ui/)
-[![Downloads](https://pepy.tech/badge/streamdeck-ui)](https://pepy.tech/project/streamdeck-ui)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://timothycrosley.github.io/isort/)
-
+[![powerstramdeck - Linux-Anwendung zur Erweiterung Ihres Stream Decks.](art/logo_large.png)](https://timothycrosley.github.io/streamdeck-ui/)
 _________________
 
 [Lese die neueste Dokumentation](https://timothycrosley.github.io/streamdeck-ui/)
@@ -18,7 +7,9 @@ _________________
 
 > WARNUNG: Diese Dokumentation ist veraltet und möglicherweise nicht korrekt.
 
-**streamdeck_ui** Ein Linux kompatibles UserInterface für das Elgato Stream Deck.
+**PowerStreamdeck-linux-gui** Ein Linux kompatibles UserInterface für das Elgato Stream Deck.
+
+Dieses Projekt ist ein Fork des Projekts **streamdeck-linux-gui**, einem Fork und direkten Ersatz für [streamdeck_ui](https://github.com/timothycrosley/streamdeck-ui), das nach dem Verschwinden seines ursprünglichen Besitzers aufgegeben wurde.
 
 ![Streamdeck UI Usage Example](art/example.gif)
 
