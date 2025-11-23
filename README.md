@@ -62,7 +62,7 @@ Open a bug report [here](https://github.com/streamdeck-linux-gui/streamdeck-linu
 
 ### Have a Question?
 
-If you need any help, have a question, or just want to discuss something related to the project, please feel free to open a [discussion](https://github.com/streamdeck-linux-gui/streamdeck-linux-gui/discussions).
+If you need any help, have a question, or just want to discuss something related to the project, please feel free to open a [discussion](https://github.com/powerstreamdeck-linux-gui/powerstreamdeck-linux-gui/discussions).
 
 ## Known issues
 
