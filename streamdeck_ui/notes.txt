@@ -1,3 +1,32 @@
 buttons.ui
 STRONG CULPRIT!
+main.ui
+file bar
+menuFile
+actionExport - export (action? button i think?)
+REFERENCES                                 \
+ui_main.py                                  \
+33,34:init                                   \
+218 adding it to the menu bar                 \
+gui.py                                         \
+1212 adding a slot(? INVESTIGATE)(export_config)\
+api.py                           /               \
+188 def export_config()->write_state_to_config()  \
+config.py                                          \
+86 def write_state_to_config()                      \
+actionImport - vice versa you can guess--------------\ 
+REFERENCES
+ui_main.py
+31,32:init
+217 adding it to the menu bar
+gui.py
+1213 addomg a slot(? INVESTIGATE)(import_config)
+api.py                           /
+182 def import_config()->read_state_from_config()
+config.py
+50 def read_state_from_config()
 
+write_state_to_config()
+config.py
+172 def _to_button_state() THIS IS WHAT GENERATES THE JSON! FINALLY!
+im pushing this EXACTLY how it is to gh. IK if I don't and anyone tries to figure this out will do basically this anyways. I spent way too long for myself and pushed it for you, potential forker, so don't have to! You're welcome :)
