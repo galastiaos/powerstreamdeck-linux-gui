@@ -39,6 +39,23 @@ TODO: investigate
 api.py
 145 def _key_change_callback()
 371 def set_button_state()
+405 def set_button_text()
+414 def get_button_text()
+418 def set_button_icon()
+428 def get_button_icon()
+432 def get_button_text_horizontal_align()
+436 def set_button_text_horizontal_align()
+445 def set_button_text_vertical_align()
+428 def get_button_text_vertical_align()
+454 def set_button_font_color()
+470 def get_button_font_color()
+474 def set_button_background_color()
+490 def get_button_background_color()
+494 def get_button_icon_pixmap() This is the actual image
+503 def get_button_icon() This is the path
+418 def set_button_icon() This sets the image
+543 def set_button_font()
+573 def get_button_font()
 
 I'm pushing this EXACTLY how it is to gh. IK if I don't and anyone tries to figure this out will do basically this anyways. I spent way too long for myself and pushed it for you, potential 
 forker, so don't have to! You're welcome :)
