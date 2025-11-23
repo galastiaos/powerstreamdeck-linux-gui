@@ -36,6 +36,9 @@ config.py
 172 def _to_button_state() THIS IS WHAT GENERATES THE JSON! FINALLY!
 TODO: investigate
 
+api.py
+145 def _key_change_callback()
+371 def set_button_state()
 
 I'm pushing this EXACTLY how it is to gh. IK if I don't and anyone tries to figure this out will do basically this anyways. I spent way too long for myself and pushed it for you, potential 
 forker, so don't have to! You're welcome :)
