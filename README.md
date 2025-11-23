@@ -38,32 +38,10 @@ Communication with the Stream Deck is powered by the [Python Elgato Stream Deck 
 
 Documentation is available at [https://streamdeck-linux-gui.github.io/streamdeck-linux-gui/](https://streamdeck-linux-gui.github.io/streamdeck-linux-gui/)
 
-## Installation Guides
-**Warning** 
-
-Since I am after all only one person, given the mere scope this fork adds to the original, I can no loner state that installation on platforms either than **Ubuntu/Mint/Debian** will work.
-* [Arch/Manjaro](docs/installation/arch.md)
-* [CentOS](docs/installation/centos.md)
-* [Fedora](docs/installation/fedora.md)
-* [NixOS](docs/installation/nixos.md)
-* [openSUSE](docs/installation/opensuse.md)
-* [Ubuntu/Mint](docs/installation/ubuntu.md)
-
-Once you're up and running, consider installing a [systemd service](docs/installation/systemd.md).
-
-> Use the [troubleshooting](docs/troubleshooting.md) guide or [search](https://github.com/streamdeck-linux-gui/streamdeck-linux-gui/issues?q=is%3Aissue) the issues for guidance. If you cannot find on the issue on this repository please try searching on the original at [streamdeck_ui](https://github.com/timothycrosley/streamdeck-ui/issues?q=is%3Aissue++).
-
-### Precooked Scripts
-
-There are scripts for setting up PowerStreamdeck on [Debian/Ubuntu](scripts/ubuntu_install.sh) and [Fedora](scripts/fedora_install.sh).
-
-## Updating Documentation
-
-Documentation is powered by mkdocs-material, and its on the [docs](docs/) folder. Install it with `pip install mkdocs-material` and run `mkdocs serve` to see the changes locally, before submitting a PR.
 
 ## Development & Contributions
 
-Contributuions encouraged and very welcome, however some rules and guidelines must be followed!
+Contribute if you want, but don't make it janky.
 
 ### General Guidelines
 
