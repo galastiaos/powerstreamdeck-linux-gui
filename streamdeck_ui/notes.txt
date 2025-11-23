@@ -36,6 +36,12 @@ config.py
 172 def _to_button_state() THIS IS WHAT GENERATES THE JSON! FINALLY!
 TODO: investigate
 
+text_font_style - font style thing
+REFERENCES
+gui.py
+631 - adding a slot(? INVESTIGATE)(update_button_attribute_font)
+                                   \
+825 - def update_button_attribute_font()
 api.py
 145 def _key_change_callback()
 371 def set_button_state()
@@ -56,6 +62,7 @@ api.py
 418 def set_button_icon() This sets the image
 543 def set_button_font()
 573 def get_button_font()
+554 def get_button_font_size()
 
 I'm pushing this EXACTLY how it is to gh. IK if I don't and anyone tries to figure this out will do basically this anyways. I spent way too long for myself and pushed it for you, potential 
 forker, so don't have to! You're welcome :)
