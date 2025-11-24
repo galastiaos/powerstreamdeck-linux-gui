@@ -43,6 +43,7 @@ main.ui
 REFERENCES
 gui.py
 971 def build_device()
+1228 slot build_device()
 
 TEMP-Flush out later
 add_page - add page button - main.ui 166-189
