@@ -31,6 +31,19 @@ api.py                           /                   |
 config.py
 50 def read_state_from_config()
 
+add_image
+REFERENCES
+gui.py
+show_button_state_image_dialog()
+                       /
+719 def show_button_state_image_dialog() 
+
+pages
+main.ui
+REFERENCES
+gui.py
+971 def build_device()
+
 TEMP-Flush out later
 add_page - add page button - main.ui 166-189
 remove_page - remove page button - main.ui 192-203
