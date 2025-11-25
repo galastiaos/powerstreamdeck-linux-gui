@@ -635,6 +635,7 @@ def build_button_state_form(tab) -> None:
     tab_ui.switch_state.valueChanged.connect(partial(update_button_attribute, "switch_state"))
     tab_ui.add_image.clicked.connect(partial(show_button_state_image_dialog))
     tab_ui.remove_image.clicked.connect(show_button_state_remove_image_dialog)
+    tab_ui.exmpt.clicked.connect(exem)
     tab_ui.text_h_align.clicked.connect(partial(update_align_text_horizontal))
     tab_ui.text_v_align.clicked.connect(partial(update_align_text_vertical))
 
@@ -1194,6 +1195,8 @@ def disable_dim_settings(settings: SettingsDialog, _index: int) -> None:
 def toggle_dim_all() -> None:
     api.toggle_dimmers()
 
+def exem():
+    print("hello")
 
 def create_main_window(api: StreamDeckServer, app: QApplication) -> MainWindow:
     """Creates the main application window and configures slots and signals"""

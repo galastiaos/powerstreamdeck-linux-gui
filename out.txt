@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/mrcodester/code/streamdeck/powerstreamdeck-linux-gui/streamdeck_ui/gui.py", line 1385, in start
+    main_window = create_main_window(api, app)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrcodester/code/streamdeck/powerstreamdeck-linux-gui/streamdeck_ui/gui.py", line 1223, in create_main_window
+    build_button_state_pages()
+  File "/home/mrcodester/code/streamdeck/powerstreamdeck-linux-gui/streamdeck_ui/gui.py", line 547, in build_button_state_pages
+    build_button_state_form(page_tab)
+  File "/home/mrcodester/code/streamdeck/powerstreamdeck-linux-gui/streamdeck_ui/gui.py", line 584, in build_button_state_form
+    tab_ui.setupUi(base_widget)
+  File "/home/mrcodester/code/streamdeck/powerstreamdeck-linux-gui/streamdeck_ui/ui_button.py", line 114, in setupUi
+    self.formLayout.setWidget(11, QFormLayout.ItemRole.LabelRole, self.exmpt)
+                                                                  ^^^^^^^^^^
+AttributeError: 'Ui_ButtonForm' object has no attribute 'exmpt'

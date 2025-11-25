@@ -38,6 +38,17 @@ show_button_state_image_dialog()
                        /
 719 def show_button_state_image_dialog() 
 
+new
+exmpt-exempt button 11,0
+REFERENCES
+gui.py
+564
+def build_button_state_form() connection slot(634)-WORKS ON RELOAD/CLICK on other buttons in mock streamdeck
+584                       /
+def build_button_state_form()->tab_ui.setupUi()
+      \
+Ui_ButtonForm()
+
 pages
 main.ui
 REFERENCES

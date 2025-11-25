@@ -110,8 +110,8 @@ class Ui_ButtonForm(object):
         self.checkBox = QCheckBox(ButtonForm)
         self.formLayout.setWidget(10, QFormLayout.ItemRole.FieldRole, self.checkBox)
 
-        self.pushButton = QPushButton(ButtonForm)
-        self.formLayout.setWidget(11, QFormLayout.ItemRole.LabelRole, self.pushButton)
+        self.exmpt = QPushButton(ButtonForm)
+        self.formLayout.setWidget(11, QFormLayout.ItemRole.LabelRole, self.exmpt)
 
         # FIXED BUTTON ROW
         sizePolicy5 = QSizePolicy(QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Minimum)
@@ -161,7 +161,7 @@ class Ui_ButtonForm(object):
         self.label_8.setText("Switch Page:")
         self.label_10.setText("Switch state")
         self.label_1.setText("Global state")
-        self.pushButton.setText("Exempt")
+        self.exmpt.setText("Exempt")
         self.pushButton1.setText("v")
         self.pushButton2.setText("x")
         self.label_7.setText("Brightness +/-:")

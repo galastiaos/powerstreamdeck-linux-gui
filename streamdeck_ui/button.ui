@@ -1175,7 +1175,7 @@
 	<widget class="QCheckBox"></widget>
     </item>
     <item row="11" column="0">
-    <widget class="QPushButton">
+    <widget class="QPushButton" name="exmpt">
     <property name="text">
     <string>
     Exempt
